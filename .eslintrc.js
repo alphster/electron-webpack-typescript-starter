@@ -15,5 +15,10 @@ module.exports = {
   ],
   rules: {
     "prettier/prettier": ["error", { "singleQuote": true, semi: false, tabWidth: 2, usedTabs: true }]
+  },
+  settings: {
+    react: {
+      version: "detect"
+    }
   }
 }
