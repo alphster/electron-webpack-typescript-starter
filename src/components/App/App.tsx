@@ -1,8 +1,10 @@
 import React, { FunctionComponentElement } from 'react'
-import logo from './../../assets/logo.svg'
+import logo from '~/assets/logo.svg'
 import './App.css'
+import electron from 'electron'
 
 export function App(): FunctionComponentElement<null> {
+	console.log('hi', electron.remote.app)
 	return (
 		<div className="App">
 			<header className="App-header">
