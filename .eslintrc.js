@@ -2,7 +2,10 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ["react", "@typescript-eslint", "prettier"],
   parserOptions: {
-    project: "tsconfig.json"
+    project: "tsconfig.json",
+    ecmaFeatures: {
+      jsx: true
+    }
   },
   extends: [
     "eslint:recommended",
@@ -14,7 +17,7 @@ module.exports = {
     "plugin:prettier/recommended"
   ],
   rules: {
-    "prettier/prettier": ["error", { "singleQuote": true, semi: false, tabWidth: 2, usedTabs: true }]
+    "prettier/prettier": ["error", { "singleQuote": true, semi: false, tabWidth: 2, useTabs: true, printWidth: 160 }]
   },
   settings: {
     react: {
