@@ -17,7 +17,7 @@ function createWindow(): void {
 	})
 
 	// and load the index.html of the app.
-	win.loadFile('index.html')
+	win.loadURL('http://localhost:8080/')
 
 	// Open the DevTools.
 	win.webContents.openDevTools()

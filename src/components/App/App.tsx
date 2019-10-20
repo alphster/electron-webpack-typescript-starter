@@ -1,8 +1,8 @@
 import React, { FunctionComponentElement } from 'react'
-import logo from './logo.svg'
+import logo from './../../assets/logo.svg'
 import './App.css'
 
-function App(): FunctionComponentElement<null> {
+export function App(): FunctionComponentElement<null> {
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -23,5 +23,3 @@ function App(): FunctionComponentElement<null> {
 		</div>
 	)
 }
-
-export default App
