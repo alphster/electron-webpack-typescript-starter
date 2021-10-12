@@ -20,7 +20,7 @@
     "@typescript-eslint/eslint-plugin": "^2",
     "@typescript-eslint/parser": "^2",
     "css-loader": "^3",
-    "electron": "^6.0",
+    "electron": "^11.5",
     "eslint": "^6",
     "eslint-config-prettier": "^6",
     "eslint-plugin-prettier": "^3",
